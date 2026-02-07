@@ -11,12 +11,13 @@
 - [🛠️ Tools & Technologies](#tools--technologies)
 - [📈 Dashboard Concept](#dashboard-concept)
 - [🔄 Project Workflow](#project-workflow)
-- [🧱 Project Structure](#project-structure)
 - [▶️ How to Run](#how-to-run)
 - [🔍 Key Insights](#key-insights)
 - [💡 Business Recommendations](#business-recommendations)
 - [💼 Business Value](#business-value)
 - [✅ Conclusion](#conclusion)
+- [🧱 Project Structure](#project-structure)
+- [📊 Project Pipeline](#project-pipeline-flowchart)
 
 ---
 
@@ -53,13 +54,13 @@
 
 ## Tools & Technologies
 
-- 🐍 Python – Data extraction, cleaning, and enrichment  
+- 🐍 Python – Data extraction, cleaning, enrichment, & export to Power BI  
 - 📊 Pandas – Data manipulation & transformation  
 - 🧠 NLTK (VADER) – Sentiment analysis  
 - 🔌 pyodbc – SQL Server connection  
-- 🗄️ SQL Server – Source database  
+- 🗄️ SQL Server – Source & processed data storage  
 - 💻 VS Code – Python development  
-- 📁 CSV Files – Export enriched datasets  
+- 📁 CSV Files – Optional export of processed data  
 - 📊 Power BI – Dashboard & visualization  
 
 ---
@@ -78,13 +79,14 @@
 
 - 🔹 Restore `.bak` backup into SQL Server  
 - 🔹 Create tables & write SQL queries  
-- 🔹 Connect SQL Server to Python using pyodbc  
+- 🔹 Connect SQL Server to Python via pyodbc (`.py` script)  
 - 🔹 Clean & enrich data with Pandas  
 - 🔹 Perform sentiment analysis using NLTK  
 - 🔹 Export processed data as CSV  
-- 🔹 Load data into Power BI  
-- 🔹 Build data model & relationships  
-- 🔹 Create calculated measures  
+- 🔹 Load processed data back into SQL Server  
+- 🔹 Connect both **processed CSV** and **SQL Server** to Power BI  
+- 🔹 Build data model & relationships in Power BI  
+- 🔹 Create calculated measures & KPIs  
 - 🔹 Build interactive dashboard with insights  
 
 ---
@@ -103,16 +105,72 @@
 
 Marketing-Analytics/  
 │  
-├── data/  
-│   └── marketing_data.csv  
-├── notebooks/  
-│   ├── data_cleaning.ipynb  
-│   └── exploratory_analysis.ipynb  
 ├── sql/  
+│   ├── marketing_backup.bak  
 │   └── marketing_analysis_queries.sql  
-├── dashboard/  
+├── python/  
+│   ├── data_cleaning.py  
+│   └── sentiment_analysis.py  
+├── data/  
+│   └── processed_data.csv  
+├── sql_server_connection/  
+│   └── processed_data_loaded.sql  
+├── power_bi/  
 │   └── marketing_analytics_dashboard.pbix  
 └── README.md  
+
+*(Shows Processed CSV + SQL Server → Power BI connection for dashboard generation)*
+
+---
+
+## Project Pipeline (Flowchart)
+
+```
+        ┌─────────────────────┐
+        │ SQL Server Backup   │
+        │   (.bak file)       │
+        └─────────┬──────────┘
+                  │
+                  v
+        ┌─────────────────────┐
+        │ SQL Tables & Queries│
+        └─────────┬──────────┘
+                  │
+                  v
+        ┌─────────────────────┐
+        │ Python via pyodbc   │
+        │  Cleaning & Enrich  │
+        └─────────┬──────────┘
+                  │
+                  v
+        ┌─────────────────────────────┐
+        │ Sentiment Analysis (NLTK)  │
+        └─────────┬─────────────────┘
+                  │
+                  v
+        ┌─────────────────────────────┐
+        │ Export Processed CSV         │
+        │ Load Processed Data to SQL  │
+        └─────────┬─────────────────┘
+                  │
+                  v
+        ┌─────────────────────────────┐
+        │ Power BI connects to both    │
+        │ Processed CSV & SQL Server  │
+        │ to generate Dashboard       │
+        └─────────┬─────────────────┘
+                  │
+                  v
+        ┌─────────────────────────────┐
+        │ Calculated Measures & KPIs │
+        └─────────┬─────────────────┘
+                  │
+                  v
+        ┌─────────────────────────────┐
+        │ Interactive Dashboard       │
+        │      with Insights          │
+        └─────────────────────────────┘
+```
 
 ---
 
@@ -120,35 +178,9 @@ Marketing-Analytics/
 
 - ⬇️ Clone the repository  
 - 📦 Install Python libraries  
-- ▶️ Run Python scripts / notebooks for cleaning & sentiment analysis  
+- ▶️ Run Python scripts for cleaning & sentiment analysis  
 - 🗄️ Load processed data into SQL Server  
-- 📊 Open Power BI dashboard  
-
----
-
-## Project Pipeline (Flowchart)
-[SQL Server Backup]  
-        |  
-        v  
-[SQL Tables & Queries]  
-        |  
-        v  
-[Python via pyodbc]  
-        |  
-        v  
-[Data Cleaning & Sentiment Analysis]  
-        |  
-        v  
-[CSV Export]  
-        |  
-        v  
-[Power BI Data Model]  
-        |  
-        v  
-[Calculated Measures]  
-        |  
-        v  
-[Interactive Dashboard]  
+- 📊 Connect Power BI to both **processed CSV** & **SQL Server** to generate dashboard  
 
 ---
 
@@ -166,7 +198,7 @@ Marketing-Analytics/
 - 🎯 Focus on high-performing products & peak seasons  
 - 🧪 Optimize underperforming campaigns with targeted strategies  
 - ✍️ Align content to boost engagement  
-- 🛠️ Address recurring feedback issues to strengthen loyalty  
+- 🛠️ Address recurring feedback issues  
 
 ---
 
@@ -185,4 +217,4 @@ Marketing-Analytics/
 - 🧭 End-to-end marketing analytics pipeline implemented  
 - 🔍 SQL, Python & Power BI integrated for insights  
 - 🚀 Dashboard empowers quick, actionable business decisions  
-- 📈 Data-driven strategy improves conversions, engagement & ROI
+- 📈 Data-driven strategy improves conversions, engagement & RO
