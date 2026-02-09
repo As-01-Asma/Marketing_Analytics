@@ -89,7 +89,7 @@
 - 🔹 Create calculated measures & KPIs  
 - 🔹 Build interactive dashboard with insights  
 
-**Visual Flowchart Representation (GitHub-friendly with emojis):**  
+**Visual Flowchart Representation:**  
 
         🟢 Start: SQL Backup (.bak file)
                     │
@@ -196,4 +196,3 @@ Marketing-Analytics/
 - 🔍 SQL, Python & Power BI integrated for insights  
 - 🚀 Dashboard empowers quick, actionable business decisions  
 - 📈 Data-driven strategy improves conversions, engagement & ROI
-
