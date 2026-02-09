@@ -17,7 +17,6 @@
 - [💼 Business Value](#business-value)
 - [✅ Conclusion](#conclusion)
 - [🧱 Project Structure](#project-structure)
-- [📊 Project Pipeline](#project-pipeline-flowchart)
 
 ---
 
@@ -77,17 +76,50 @@
 
 ## Project Workflow
 
+**Step-by-step workflow explanation:**  
+
 - 🔹 Restore `.bak` backup into SQL Server  
 - 🔹 Create tables & write SQL queries  
 - 🔹 Connect SQL Server to Python via pyodbc (`.py` script)  
 - 🔹 Clean & enrich data with Pandas  
 - 🔹 Perform sentiment analysis using NLTK  
 - 🔹 Export processed data as CSV  
-- 🔹 Load processed data back into SQL Server  
-- 🔹 Connect both **processed CSV** and **SQL Server** to Power BI  
+- 🔹 Connect both **SQL queries** and **processed CSV (used for data modeling → one-to-many relationships, proper graphs & visuals in Power BI)** to Power BI  
 - 🔹 Build data model & relationships in Power BI  
 - 🔹 Create calculated measures & KPIs  
 - 🔹 Build interactive dashboard with insights  
+
+**Visual Flowchart Representation (GitHub-friendly with emojis):**  
+
+        🟢 Start: SQL Backup (.bak file)
+                    │
+                    ▼
+        📂 Restore Database & Prepare Tables
+                    │
+                    ▼
+        📝 SQL Tables & Queries
+                    │
+                    ▼
+        🐍 Python Scripts
+          - Cleaning & Enrichment
+          - Sentiment Analysis
+                    │
+                    ▼
+        📄 Export Processed CSV
+          (Used for Data Modeling in Power BI)
+                    │
+                    ▼
+        📊 Connect to Power BI
+          - SQL Queries
+          - Processed CSV (for relationships & graphs)
+                    │
+                    ▼
+        🧮 Build Dashboard & KPIs
+          - One-to-many relationships
+          - Calculated Measures
+                    │
+                    ▼
+        🎯 End: Interactive Dashboard & Insights
 
 ---
 
@@ -113,64 +145,11 @@ Marketing-Analytics/
 │   └── sentiment_analysis.py  
 ├── data/  
 │   └── processed_data.csv  
-├── sql_server_connection/  
-│   └── processed_data_loaded.sql  
 ├── power_bi/  
 │   └── marketing_analytics_dashboard.pbix  
 └── README.md  
 
-*(Shows Processed CSV + SQL Server → Power BI connection for dashboard generation)*
-
----
-
-## Project Pipeline (Flowchart)
-
-```
-        ┌─────────────────────┐
-        │ SQL Server Backup   │
-        │   (.bak file)       │
-        └─────────┬──────────┘
-                  │
-                  v
-        ┌─────────────────────┐
-        │ SQL Tables & Queries│
-        └─────────┬──────────┘
-                  │
-                  v
-        ┌─────────────────────┐
-        │ Python via pyodbc   │
-        │  Cleaning & Enrich  │
-        └─────────┬──────────┘
-                  │
-                  v
-        ┌─────────────────────────────┐
-        │ Sentiment Analysis (NLTK)  │
-        └─────────┬─────────────────┘
-                  │
-                  v
-        ┌─────────────────────────────┐
-        │ Export Processed CSV         │
-        │ Load Processed Data to SQL  │
-        └─────────┬─────────────────┘
-                  │
-                  v
-        ┌─────────────────────────────┐
-        │ Power BI connects to both    │
-        │ Processed CSV & SQL Server  │
-        │ to generate Dashboard       │
-        └─────────┬─────────────────┘
-                  │
-                  v
-        ┌─────────────────────────────┐
-        │ Calculated Measures & KPIs │
-        └─────────┬─────────────────┘
-                  │
-                  v
-        ┌─────────────────────────────┐
-        │ Interactive Dashboard       │
-        │      with Insights          │
-        └─────────────────────────────┘
-```
+*(Processed CSV + SQL Server queries → Power BI connection for dashboard generation. CSV used for data modeling to create relationships and graphs.)*
 
 ---
 
@@ -179,8 +158,7 @@ Marketing-Analytics/
 - ⬇️ Clone the repository  
 - 📦 Install Python libraries  
 - ▶️ Run Python scripts for cleaning & sentiment analysis  
-- 🗄️ Load processed data into SQL Server  
-- 📊 Connect Power BI to both **processed CSV** & **SQL Server** to generate dashboard  
+- 🗄️ Connect Power BI to both **processed CSV + SQL queries** to generate dashboard (CSV used for data modeling & relationships)  
 
 ---
 
@@ -217,4 +195,5 @@ Marketing-Analytics/
 - 🧭 End-to-end marketing analytics pipeline implemented  
 - 🔍 SQL, Python & Power BI integrated for insights  
 - 🚀 Dashboard empowers quick, actionable business decisions  
-- 📈 Data-driven strategy improves conversions, engagement & RO
+- 📈 Data-driven strategy improves conversions, engagement & ROI
+
