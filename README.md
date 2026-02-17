@@ -5,35 +5,35 @@
 ---
 
 ## 📑 Table of Contents
-- [1 Overview](#1-overview)
-- [2 Conversion Details](#2-conversion-details)
-- [3 Social Media Details](#3-social-media-details)
-- [4 Customer Review Details](#4-customer-review-details)
-- [Tools & Technologies](#tools--technologies)
-- [Dashboard Concept](#dashboard-concept)
-- [Project Workflow](#project-workflow)
-- [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
-- [Data Modeling Diagram](#data-modeling-diagram)
-- [PPT / Reports](#ppt--reports)
-- [Key Insights](#key-insights)
-- [Business Recommendations](#business-recommendations)
-- [Business Value](#business-value)
-- [Conclusion](#conclusion)
+- [1️⃣ Overview](#1-overview)  
+- [2️⃣ Conversion Details](#2-conversion-details)  
+- [3️⃣ Social Media Details](#3-social-media-details)  
+- [4️⃣ Customer Review Details](#4-customer-review-details)  
+- [🛠️ Tools & Technologies](#tools--technologies)
+- [📈 Dashboard Concept](#dashboard-concept)
+- [🔄 Project Workflow](#project-workflow)
+- [🧱 Project Structure](#project-structure)
+- [▶️ How to Run](#how-to-run)
+- [🖼️ Data Modeling Diagram](#data-modeling-diagram)
+- [📄 PPT / Reports](#ppt--reports)
+- [🔍 Key Insights](#key-insights)
+- [💡 Business Recommendations](#business-recommendations)
+- [💼 Business Value](#business-value)
+- [✅ Conclusion](#conclusion)
 
 ---
 
 ## 1 Overview
 ![Overview Dashboard](dashboard1.png)
 
-- 🎯 Purpose: Analyze digital marketing performance for an online retail business  
-- 👥 Focus: Customer engagement, conversion behavior, and feedback trends  
-- 📉 Goal: Identify gaps in marketing effectiveness & optimize ROI  
-- 📊 Outcome: Data-driven insights for better business decisions  
+- **🎯 Purpose:** Analyze digital marketing performance for an online retail business  
+- **👥 Focus:** Customer engagement, conversion behavior, and feedback trends  
+- **📉 Goal:** Identify gaps in marketing effectiveness & optimize ROI  
+- **📊 Outcome:** Data-driven insights for better business decisions  
 
 **Dashboard Insights:**  
-- 📈 Conversion Rate: Currently standing at 9.6%, providing a baseline for marketing effectiveness.  
-- 👁️ Engagement Volume: Tracking over 9 million views and 1.7 million clicks across all product categories.  
+- 📊 Conversion Rate: Currently standing at 9.6%, providing a baseline for marketing effectiveness.  
+- 👀 Engagement Volume: Tracking over 9 million views and 1.7 million clicks across all product categories.  
 - ⭐ Customer Sentiment: An average rating of 3.69, indicating generally positive feedback with room for service optimization.
 
 ---
@@ -41,46 +41,45 @@
 ## 2 Conversion Details
 ![Conversion Dashboard](dashboard2.png)
 
-- 🔁 Conversion Rate by Month & Season  
-- 🛒 Top-performing products & categories  
-- 💰 Revenue generated from campaigns  
-- 📉 Funnel drop-off analysis  
-- 📈 Recommendations for improving conversion  
+- **🎯 Purpose:** Track and optimize the conversion of potential customers into buyers  
+- **👥 Focus:** Identify top-performing products, categories, and seasonal trends  
+- **📉 Goal:** Reduce drop-offs in the conversion funnel & increase overall purchases  
+- **📊 Outcome:** Insights to improve campaigns and maximize revenue  
 
 **Dashboard Insights:**  
-- 🔍 Conversion Funnel: Analysis of the customer journey shows 672 views resulting in 355 clicks and 57 final purchases (an 8.5% conversion rate for the selected period).  
-- 📆 Seasonal Trends: Conversion rates peak significantly in January (17.3%) and December (12.2%), highlighting the impact of holiday marketing.  
-- 🏆 Top Products: Ski Boots and Kayaks lead in conversion performance, while Climbing Rope shows the lowest conversion efficiency.
+- 🔁 Conversion Funnel: 672 views → 355 clicks → 57 final purchases (8.5% conversion rate).  
+- 📅 Seasonal Trends: Peaks in January (17.3%) and December (12.2%), highlighting holiday marketing impact.  
+- 🛒 Top Products: Ski Boots and Kayaks lead, Climbing Rope has lowest conversion efficiency.
 
 ---
 
 ## 3 Social Media Details
 ![Social Media Dashboard](dashboard3.png)
 
-- 📣 Campaign performance across channels (Facebook, Instagram, Email)  
-- 🖱️ Engagement metrics: clicks, likes, shares, interactions  
-- 📅 Monthly trends & peak engagement periods  
-- 🧪 Content type performance (images, videos, posts)  
+- **🎯 Purpose:** Measure campaign effectiveness across social channels  
+- **👥 Focus:** Track engagement metrics (clicks, likes, shares) and monthly trends  
+- **📉 Goal:** Identify high-performing content and campaign timing  
+- **📊 Outcome:** Insights to guide content strategy and maximize reach  
 
 **Dashboard Insights:**  
-- 📊 Channel Performance: Detailed tracking of Views (2.9M), Clicks (458K), and Likes (73K) to measure brand awareness.  
-- 🎬 Content Strategy: Comparison of Blog, Social Media, and Video content types shows that video consistently drives higher engagement peaks in mid-year.  
-- 📈 Monthly Reach: Engagement hit a peak in April and July, suggesting high-performing specific campaigns during those windows.
+- 📊 Channel Performance: Views (2.9M), Clicks (458K), Likes (73K) measure brand awareness.  
+- 🎥 Content Strategy: Videos consistently drive higher engagement peaks in mid-year.  
+- 📅 Monthly Reach: Peaks in April and July indicate strong campaigns during these windows.
 
 ---
 
 ## 4 Customer Review Details
 ![Customer Review Dashboard](dashboard4.png)
 
-- ⭐ Average ratings & sentiment scores  
-- 🗣️ Positive vs negative review trends  
-- ✍️ Recurring feedback / complaints  
-- 😊 Suggestions to improve product & service  
+- **🎯 Purpose:** Understand customer feedback and product perception  
+- **👥 Focus:** Analyze sentiment scores, ratings, and recurring complaints  
+- **📉 Goal:** Improve products, services, and customer satisfaction  
+- **📊 Outcome:** Data-driven recommendations for enhancing brand reputation  
 
 **Dashboard Insights:**  
-- 🧠 Sentiment Analysis: Integration of Python's NLTK (VADER) library to categorize reviews into Positive, Mixed, and Negative sentiments.  
-- 📊 Rating Distribution: The majority of customers provide 5-star or 4-star reviews, though a significant cluster of "Mixed Negative" reviews exists for certain product categories.  
-- 📅 Feedback Trends: Sentiment remained most positive in December, likely due to successful year-end customer service initiatives.
+- 🧠 Sentiment Analysis: Categorized reviews into Positive, Mixed, and Negative using Python NLTK (VADER).  
+- ⭐ Rating Distribution: Majority 4-5 star, some “Mixed Negative” in specific categories.  
+- 📈 Feedback Trends: Sentiment most positive in December due to successful year-end initiatives.
 
 ---
 
@@ -150,12 +149,11 @@ Marketing-Analytics/
 │   └── processed_data.csv  
 ├── power_bi/  
 │   └── marketing_analytics_dashboard.pbix  
-├── images/  
-│   ├── data_model.png  
-│   ├── dashboard1.png  
-│   ├── dashboard2.png  
-│   ├── dashboard3.png  
-│   └── dashboard4.png  
+├── dashboard1.png  
+├── dashboard2.png  
+├── dashboard3.png  
+├── dashboard4.png  
+├── data_model.png  
 ├── reports/  
 │   └── marketing_report.pptx  
 └── README.md  
