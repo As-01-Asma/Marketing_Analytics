@@ -23,7 +23,7 @@
 
 ---
 
-##   Project Overview
+## Project Overview
 - 🎯 Analyze digital marketing performance for an online retail business  
 - 👥 Examine customer engagement, conversion behavior, and feedback trends  
 - 📉 Identify gaps in marketing effectiveness despite high marketing spend  
@@ -31,7 +31,7 @@
 
 ---
 
-##   Dataset Description
+## Dataset Description
 - 🌐 Website traffic & visitor behavior  
 - 🛒 Conversion & transaction metrics  
 - 📢 Marketing campaign performance  
@@ -42,7 +42,7 @@
 
 ---
 
-##   Key Analysis Areas
+## Key Analysis Areas
 - 🔁 Conversion rate & funnel performance  
 - 📣 Customer engagement trends across marketing channels  
 - 📅 Monthly & seasonal performance evaluation  
@@ -51,7 +51,7 @@
 
 ---
 
-##  Tools & Technologies
+## Tools & Technologies
 - 🐍 Python – Data extraction, cleaning, enrichment, & export to Power BI  
 - 📊 Pandas – Data manipulation & transformation  
 - 🧠 NLTK (VADER) – Sentiment analysis  
@@ -63,7 +63,7 @@
 
 ---
 
-##   Dashboard Concept
+## Dashboard Concept
 - 📌 Key marketing & conversion KPIs overview  
 - 📈 Engagement & conversion trends by month  
 - 🧪 Campaign & content performance comparison  
@@ -72,7 +72,7 @@
 
 ---
 
-##   Project Workflow
+## Project Workflow
 🟢 Start: SQL Backup (.bak file)  
         │  
         ▼  
@@ -104,7 +104,7 @@
 
 ---
 
-##   Project Structure
+## Project Structure
 Marketing-Analytics/  
 │  
 ├── sql/  
@@ -129,7 +129,7 @@ Marketing-Analytics/
 
 ---
 
-##   How to Run
+## How to Run
 - ⬇️ Clone the repository  
 - 📦 Install Python libraries  
 - ▶️ Run Python scripts for cleaning & sentiment analysis  
@@ -137,12 +137,12 @@ Marketing-Analytics/
 
 ---
 
-##   Data Modeling Diagram
+## Data Modeling Diagram
 ![Data Model](images/data_model.png)
 
 ---
 
-##   Dashboards
+## Dashboards
 ### Dashboard 1 – KPI Overview
 ![Dashboard 1](images/dashboard1.png)
 
@@ -157,12 +157,12 @@ Marketing-Analytics/
 
 ---
 
-##   PPT / Reports
+## PPT / Reports
 [Download Detailed PPT Report](reports/marketing_report.pptx)
 
 ---
 
-##   Key Insights
+## Key Insights
 - 📅 Conversion rates peak seasonally  
 - 🔝 Top-performing products identified  
 - 📉 Engagement trends across campaigns  
@@ -170,7 +170,7 @@ Marketing-Analytics/
 
 ---
 
-##   Business Recommendations
+## Business Recommendations
 - 🎯 Focus on high-performing products & peak seasons  
 - 🧪 Optimize underperforming campaigns with targeted strategies  
 - ✍️ Align content to boost engagement  
@@ -178,7 +178,7 @@ Marketing-Analytics/
 
 ---
 
-##   Business Value
+## Business Value
 - 📊 Clear visibility into marketing performance  
 - 👥 Personalized marketing strategies via customer insights  
 - 💰 Optimize budget allocation for higher ROI  
@@ -187,7 +187,7 @@ Marketing-Analytics/
 
 ---
 
-##   Conclusion
+## Conclusion
 - 🧭 End-to-end marketing analytics pipeline implemented  
 - 🔍 SQL, Python & Power BI integrated for insights  
 - 🚀 Dashboard empowers quick, actionable business decisions  
