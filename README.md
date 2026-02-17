@@ -11,17 +11,19 @@
 - [🛠️ Tools & Technologies](#tools--technologies)
 - [📈 Dashboard Concept](#dashboard-concept)
 - [🔄 Project Workflow](#project-workflow)
+- [🧱 Project Structure](#project-structure)
 - [▶️ How to Run](#how-to-run)
+- [🖼️ Data Modeling Diagram](#data-modeling-diagram)
+- [📊 Dashboards](#dashboards)
+- [📄 PPT / Reports](#ppt--reports)
 - [🔍 Key Insights](#key-insights)
 - [💡 Business Recommendations](#business-recommendations)
 - [💼 Business Value](#business-value)
 - [✅ Conclusion](#conclusion)
-- [🧱 Project Structure](#project-structure)
 
 ---
 
-## Project Overview
-
+## 📌 Project Overview
 - 🎯 Analyze digital marketing performance for an online retail business  
 - 👥 Examine customer engagement, conversion behavior, and feedback trends  
 - 📉 Identify gaps in marketing effectiveness despite high marketing spend  
@@ -29,8 +31,7 @@
 
 ---
 
-## Dataset Description
-
+## 🗂️ Dataset Description
 - 🌐 Website traffic & visitor behavior  
 - 🛒 Conversion & transaction metrics  
 - 📢 Marketing campaign performance  
@@ -41,8 +42,7 @@
 
 ---
 
-## Key Analysis Areas
-
+## 📊 Key Analysis Areas
 - 🔁 Conversion rate & funnel performance  
 - 📣 Customer engagement trends across marketing channels  
 - 📅 Monthly & seasonal performance evaluation  
@@ -51,8 +51,7 @@
 
 ---
 
-## Tools & Technologies
-
+## 🛠️ Tools & Technologies
 - 🐍 Python – Data extraction, cleaning, enrichment, & export to Power BI  
 - 📊 Pandas – Data manipulation & transformation  
 - 🧠 NLTK (VADER) – Sentiment analysis  
@@ -64,8 +63,7 @@
 
 ---
 
-## Dashboard Concept
-
+## 📈 Dashboard Concept
 - 📌 Key marketing & conversion KPIs overview  
 - 📈 Engagement & conversion trends by month  
 - 🧪 Campaign & content performance comparison  
@@ -74,67 +72,39 @@
 
 ---
 
-## Project Workflow
-
-**Step-by-step workflow explanation:**  
-
-- 🔹 Restore `.bak` backup into SQL Server  
-- 🔹 Create tables & write SQL queries  
-- 🔹 Connect SQL Server to Python via pyodbc (`.py` script)  
-- 🔹 Clean & enrich data with Pandas  
-- 🔹 Perform sentiment analysis using NLTK  
-- 🔹 Export processed data as CSV  
-- 🔹 Connect both **SQL queries** and **processed CSV (used for data modeling → one-to-many relationships, proper graphs & visuals in Power BI)** to Power BI  
-- 🔹 Build data model & relationships in Power BI  
-- 🔹 Create calculated measures & KPIs  
-- 🔹 Build interactive dashboard with insights  
-
-**Visual Flowchart Representation:**  
-
-        🟢 Start: SQL Backup (.bak file)
-                    │
-                    ▼
-        📂 Restore Database & Prepare Tables
-                    │
-                    ▼
-        📝 SQL Tables & Queries
-                    │
-                    ▼
-        🐍 Python Scripts
-          - Cleaning & Enrichment
-          - Sentiment Analysis
-                    │
-                    ▼
-        📄 Export Processed CSV
-          (Used for Data Modeling in Power BI)
-                    │
-                    ▼
-        📊 Connect to Power BI
-          - SQL Queries
-          - Processed CSV (for relationships & graphs)
-                    │
-                    ▼
-        🧮 Build Dashboard & KPIs
-          - One-to-many relationships
-          - Calculated Measures
-                    │
-                    ▼
-        🎯 End: Interactive Dashboard & Insights
+## 🔄 Project Workflow
+🟢 Start: SQL Backup (.bak file)  
+        │  
+        ▼  
+📂 Restore Database & Prepare Tables  
+        │  
+        ▼  
+📝 SQL Tables & Queries  
+        │  
+        ▼  
+🐍 Python Scripts  
+  - Cleaning & Enrichment  
+  - Sentiment Analysis  
+        │  
+        ▼  
+📄 Export Processed CSV (Used for Data Modeling in Power BI)  
+        │  
+        ▼  
+📊 Connect to Power BI  
+  - SQL Queries  
+  - Processed CSV (for relationships & graphs)  
+        │  
+        ▼  
+🧮 Build Dashboard & KPIs  
+  - One-to-many relationships  
+  - Calculated Measures  
+        │  
+        ▼  
+🎯 End: Interactive Dashboard & Insights  
 
 ---
 
-## Calculated Measures
-
-- 📊 Conversion Rate  
-- 📈 Engagement Rate  
-- ⭐ Average Rating  
-- 📢 Campaign Performance Metrics  
-- 🕒 Time-based KPIs  
-
----
-
-## Project Structure
-
+## 🧱 Project Structure
 Marketing-Analytics/  
 │  
 ├── sql/  
@@ -147,23 +117,52 @@ Marketing-Analytics/
 │   └── processed_data.csv  
 ├── power_bi/  
 │   └── marketing_analytics_dashboard.pbix  
+├── images/  
+│   ├── data_model.png        ← Data model diagram  
+│   ├── dashboard1.png  
+│   ├── dashboard2.png  
+│   ├── dashboard3.png  
+│   └── dashboard4.png  
+├── reports/  
+│   └── marketing_report.pptx  
 └── README.md  
-
-*(Processed CSV + SQL Server queries → Power BI connection for dashboard generation. CSV used for data modeling to create relationships and graphs.)*
 
 ---
 
-## How to Run
-
+## ▶️ How to Run
 - ⬇️ Clone the repository  
 - 📦 Install Python libraries  
 - ▶️ Run Python scripts for cleaning & sentiment analysis  
-- 🗄️ Connect Power BI to both **processed CSV + SQL queries** to generate dashboard (CSV used for data modeling & relationships)  
+- 🗄️ Connect Power BI to both **processed CSV + SQL queries** to generate dashboard (CSV used for data modeling & relationships)
 
 ---
 
-## Key Insights
+## 🖼️ Data Modeling Diagram
+![Data Model](images/data_model.png)
 
+---
+
+## 📊 Dashboards
+### Dashboard 1 – KPI Overview
+![Dashboard 1](images/dashboard1.png)
+
+### Dashboard 2 – Engagement Trends
+![Dashboard 2](images/dashboard2.png)
+
+### Dashboard 3 – Campaign Performance
+![Dashboard 3](images/dashboard3.png)
+
+### Dashboard 4 – Product & Feedback Insights
+![Dashboard 4](images/dashboard4.png)
+
+---
+
+## 📄 PPT / Reports
+[Download Detailed PPT Report](reports/marketing_report.pptx)
+
+---
+
+## 🔍 Key Insights
 - 📅 Conversion rates peak seasonally  
 - 🔝 Top-performing products identified  
 - 📉 Engagement trends across campaigns  
@@ -171,8 +170,7 @@ Marketing-Analytics/
 
 ---
 
-## Business Recommendations
-
+## 💡 Business Recommendations
 - 🎯 Focus on high-performing products & peak seasons  
 - 🧪 Optimize underperforming campaigns with targeted strategies  
 - ✍️ Align content to boost engagement  
@@ -180,8 +178,7 @@ Marketing-Analytics/
 
 ---
 
-## Business Value
-
+## 💼 Business Value
 - 📊 Clear visibility into marketing performance  
 - 👥 Personalized marketing strategies via customer insights  
 - 💰 Optimize budget allocation for higher ROI  
@@ -190,9 +187,8 @@ Marketing-Analytics/
 
 ---
 
-## Conclusion
-
+## ✅ Conclusion
 - 🧭 End-to-end marketing analytics pipeline implemented  
 - 🔍 SQL, Python & Power BI integrated for insights  
 - 🚀 Dashboard empowers quick, actionable business decisions  
-- 📈 Data-driven strategy improves conversions, engagement & ROI
+- 📈 Data-driven strategy improves conversions, engagement & ROI  
