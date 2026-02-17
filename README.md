@@ -5,14 +5,10 @@
 ---
 
 ## 📑 Table of Contents
-- [1️⃣ Overview](#1-overview)  
-  ![Overview Dashboard](dashboard1.png)  
-- [2️⃣ Conversion Details](#2-conversion-details)  
-  ![Conversion Dashboard](dashboard2.png)  
-- [3️⃣ Social Media Details](#3-social-media-details)  
-  ![Social Media Dashboard](dashboard3.png)  
-- [4️⃣ Customer Review Details](#4-customer-review-details)  
-  ![Customer Review Dashboard](dashboard4.png)  
+- [1️⃣ Overview](#1-overview)
+- [2️⃣ Conversion Details](#2-conversion-details)
+- [3️⃣ Social Media Details](#3-social-media-details)
+- [4️⃣ Customer Review Details](#4-customer-review-details)
 - [Tools & Technologies](#tools--technologies)
 - [Dashboard Concept](#dashboard-concept)
 - [Project Workflow](#project-workflow)
