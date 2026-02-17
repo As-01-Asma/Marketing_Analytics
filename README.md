@@ -5,10 +5,10 @@
 ---
 
 ## 📑 Table of Contents
-- [1️⃣ Overview](#1-overview)
-- [2️⃣ Conversion Details](#2-conversion-details)
-- [3️⃣ Social Media Details](#3-social-media-details)
-- [4️⃣ Customer Review Details](#4-customer-review-details)
+- [1 Overview](#1-overview)
+- [2 Conversion Details](#2-conversion-details)
+- [3 Social Media Details](#3-social-media-details)
+- [4 Customer Review Details](#4-customer-review-details)
 - [Tools & Technologies](#tools--technologies)
 - [Dashboard Concept](#dashboard-concept)
 - [Project Workflow](#project-workflow)
@@ -31,6 +31,11 @@
 - 📉 Goal: Identify gaps in marketing effectiveness & optimize ROI  
 - 📊 Outcome: Data-driven insights for better business decisions  
 
+**Dashboard Insights:**  
+- 📈 Conversion Rate: Currently standing at 9.6%, providing a baseline for marketing effectiveness.  
+- 👁️ Engagement Volume: Tracking over 9 million views and 1.7 million clicks across all product categories.  
+- ⭐ Customer Sentiment: An average rating of 3.69, indicating generally positive feedback with room for service optimization.
+
 ---
 
 ## 2 Conversion Details
@@ -42,6 +47,11 @@
 - 📉 Funnel drop-off analysis  
 - 📈 Recommendations for improving conversion  
 
+**Dashboard Insights:**  
+- 🔍 Conversion Funnel: Analysis of the customer journey shows 672 views resulting in 355 clicks and 57 final purchases (an 8.5% conversion rate for the selected period).  
+- 📆 Seasonal Trends: Conversion rates peak significantly in January (17.3%) and December (12.2%), highlighting the impact of holiday marketing.  
+- 🏆 Top Products: Ski Boots and Kayaks lead in conversion performance, while Climbing Rope shows the lowest conversion efficiency.
+
 ---
 
 ## 3 Social Media Details
@@ -52,6 +62,11 @@
 - 📅 Monthly trends & peak engagement periods  
 - 🧪 Content type performance (images, videos, posts)  
 
+**Dashboard Insights:**  
+- 📊 Channel Performance: Detailed tracking of Views (2.9M), Clicks (458K), and Likes (73K) to measure brand awareness.  
+- 🎬 Content Strategy: Comparison of Blog, Social Media, and Video content types shows that video consistently drives higher engagement peaks in mid-year.  
+- 📈 Monthly Reach: Engagement hit a peak in April and July, suggesting high-performing specific campaigns during those windows.
+
 ---
 
 ## 4 Customer Review Details
@@ -61,6 +76,11 @@
 - 🗣️ Positive vs negative review trends  
 - ✍️ Recurring feedback / complaints  
 - 😊 Suggestions to improve product & service  
+
+**Dashboard Insights:**  
+- 🧠 Sentiment Analysis: Integration of Python's NLTK (VADER) library to categorize reviews into Positive, Mixed, and Negative sentiments.  
+- 📊 Rating Distribution: The majority of customers provide 5-star or 4-star reviews, though a significant cluster of "Mixed Negative" reviews exists for certain product categories.  
+- 📅 Feedback Trends: Sentiment remained most positive in December, likely due to successful year-end customer service initiatives.
 
 ---
 
@@ -130,11 +150,12 @@ Marketing-Analytics/
 │   └── processed_data.csv  
 ├── power_bi/  
 │   └── marketing_analytics_dashboard.pbix  
-├── dashboard1.png  
-├── dashboard2.png  
-├── dashboard3.png  
-├── dashboard4.png  
-├── data_model.png  
+├── images/  
+│   ├── data_model.png  
+│   ├── dashboard1.png  
+│   ├── dashboard2.png  
+│   ├── dashboard3.png  
+│   └── dashboard4.png  
 ├── reports/  
 │   └── marketing_report.pptx  
 └── README.md  
