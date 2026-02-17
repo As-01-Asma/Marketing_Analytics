@@ -6,13 +6,13 @@
 
 ## 📑 Table of Contents
 - [1️⃣ Overview](#1-overview)  
-  ![Overview Dashboard](images/dashboard1.png)  
+  ![Overview Dashboard](dashboard1.png)  
 - [2️⃣ Conversion Details](#2-conversion-details)  
-  ![Conversion Dashboard](images/dashboard2.png)  
+  ![Conversion Dashboard](dashboard2.png)  
 - [3️⃣ Social Media Details](#3-social-media-details)  
-  ![Social Media Dashboard](images/dashboard3.png)  
+  ![Social Media Dashboard](dashboard3.png)  
 - [4️⃣ Customer Review Details](#4-customer-review-details)  
-  ![Customer Review Dashboard](images/dashboard4.png)  
+  ![Customer Review Dashboard](dashboard4.png)  
 - [Tools & Technologies](#tools--technologies)
 - [Dashboard Concept](#dashboard-concept)
 - [Project Workflow](#project-workflow)
@@ -28,7 +28,7 @@
 ---
 
 ## 1 Overview
-![Overview Dashboard](images/dashboard1.png)
+![Overview Dashboard](dashboard1.png)
 
 - 🎯 Purpose: Analyze digital marketing performance for an online retail business  
 - 👥 Focus: Customer engagement, conversion behavior, and feedback trends  
@@ -38,7 +38,7 @@
 ---
 
 ## 2 Conversion Details
-![Conversion Dashboard](images/dashboard2.png)
+![Conversion Dashboard](dashboard2.png)
 
 - 🔁 Conversion Rate by Month & Season  
 - 🛒 Top-performing products & categories  
@@ -49,7 +49,7 @@
 ---
 
 ## 3 Social Media Details
-![Social Media Dashboard](images/dashboard3.png)
+![Social Media Dashboard](dashboard3.png)
 
 - 📣 Campaign performance across channels (Facebook, Instagram, Email)  
 - 🖱️ Engagement metrics: clicks, likes, shares, interactions  
@@ -59,7 +59,7 @@
 ---
 
 ## 4 Customer Review Details
-![Customer Review Dashboard](images/dashboard4.png)
+![Customer Review Dashboard](dashboard4.png)
 
 - ⭐ Average ratings & sentiment scores  
 - 🗣️ Positive vs negative review trends  
@@ -134,12 +134,11 @@ Marketing-Analytics/
 │   └── processed_data.csv  
 ├── power_bi/  
 │   └── marketing_analytics_dashboard.pbix  
-├── images/  
-│   ├── data_model.png  
-│   ├── dashboard1.png  
-│   ├── dashboard2.png  
-│   ├── dashboard3.png  
-│   └── dashboard4.png  
+├── dashboard1.png  
+├── dashboard2.png  
+├── dashboard3.png  
+├── dashboard4.png  
+├── data_model.png  
 ├── reports/  
 │   └── marketing_report.pptx  
 └── README.md  
@@ -155,7 +154,7 @@ Marketing-Analytics/
 ---
 
 ## Data Modeling Diagram
-![Data Model](images/data_model.png)
+![Data Model](data_model.png)
 
 ---
 
