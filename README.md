@@ -5,17 +5,20 @@
 ---
 
 ## 📑 Table of Contents
-- [1️⃣ Overview](#1-overview)
-- [2️⃣ Conversion Details](#2-conversion-details)
-- [3️⃣ Social Media Details](#3-social-media-details)
-- [4️⃣ Customer Review Details](#4-customer-review-details)
+- [1️⃣ Overview](#1-overview)  
+  ![Overview Dashboard](images/dashboard1.png)  
+- [2️⃣ Conversion Details](#2-conversion-details)  
+  ![Conversion Dashboard](images/dashboard2.png)  
+- [3️⃣ Social Media Details](#3-social-media-details)  
+  ![Social Media Dashboard](images/dashboard3.png)  
+- [4️⃣ Customer Review Details](#4-customer-review-details)  
+  ![Customer Review Dashboard](images/dashboard4.png)  
 - [🛠️ Tools & Technologies](#tools--technologies)
 - [📈 Dashboard Concept](#dashboard-concept)
 - [🔄 Project Workflow](#project-workflow)
 - [🧱 Project Structure](#project-structure)
 - [▶️ How to Run](#how-to-run)
 - [🖼️ Data Modeling Diagram](#data-modeling-diagram)
-- [📊 Dashboards](#dashboards)
 - [📄 PPT / Reports](#ppt--reports)
 - [🔍 Key Insights](#key-insights)
 - [💡 Business Recommendations](#business-recommendations)
@@ -24,7 +27,7 @@
 
 ---
 
-## 1️⃣ Overview
+## 1 Overview
 - 🎯 Purpose: Analyze digital marketing performance for an online retail business  
 - 👥 Focus: Customer engagement, conversion behavior, and feedback trends  
 - 📉 Goal: Identify gaps in marketing effectiveness & optimize ROI  
@@ -32,7 +35,7 @@
 
 ---
 
-## 2️⃣ Conversion Details
+## 2 Conversion Details
 - 🔁 Conversion Rate by Month & Season  
 - 🛒 Top-performing products & categories  
 - 💰 Revenue generated from campaigns  
@@ -41,7 +44,7 @@
 
 ---
 
-## 3️⃣ Social Media Details
+## 3 Social Media Details
 - 📣 Campaign performance across channels (Facebook, Instagram, Email)  
 - 🖱️ Engagement metrics: clicks, likes, shares, interactions  
 - 📅 Monthly trends & peak engagement periods  
@@ -49,7 +52,7 @@
 
 ---
 
-## 4️⃣ Customer Review Details
+## 4 Customer Review Details
 - ⭐ Average ratings & sentiment scores  
 - 🗣️ Positive vs negative review trends  
 - ✍️ Recurring feedback / complaints  
@@ -57,7 +60,7 @@
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - 🐍 Python – Data extraction, cleaning, enrichment & export to Power BI  
 - 📊 Pandas – Data manipulation & transformation  
 - 🧠 NLTK (VADER) – Sentiment analysis  
@@ -69,7 +72,7 @@
 
 ---
 
-## 📈 Dashboard Concept
+## Dashboard Concept
 - 📌 KPI Overview  
 - 📈 Conversion trends  
 - 🧪 Campaign & social media performance  
@@ -78,7 +81,7 @@
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 🟢 Start: SQL Backup (.bak file)  
         │  
         ▼  
@@ -110,7 +113,7 @@
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 Marketing-Analytics/  
 │  
 ├── sql/  
@@ -135,7 +138,7 @@ Marketing-Analytics/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 - ⬇️ Clone the repository  
 - 📦 Install Python libraries  
 - ▶️ Run Python scripts for cleaning & sentiment analysis  
@@ -143,33 +146,17 @@ Marketing-Analytics/
 
 ---
 
-## 🖼️ Data Modeling Diagram
+## Data Modeling Diagram
 ![Data Model](images/data_model.png)
 
 ---
 
-## 📊 Dashboards
-
-### 1️⃣ Overview
-![Overview Dashboard](images/dashboard1.png)
-
-### 2️⃣ Conversion Details
-![Conversion Dashboard](images/dashboard2.png)
-
-### 3️⃣ Social Media Details
-![Social Media Dashboard](images/dashboard3.png)
-
-### 4️⃣ Customer Review Details
-![Customer Review Dashboard](images/dashboard4.png)
-
----
-
-## 📄 PPT / Reports
+## PPT / Reports
 [Download Detailed PPT Report](reports/marketing_report.pptx)
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 - 📅 Conversion rates peak seasonally  
 - 🔝 Top-performing products identified  
 - 📉 Engagement trends across campaigns  
@@ -177,7 +164,7 @@ Marketing-Analytics/
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 - 🎯 Focus on high-performing products & peak seasons  
 - 🧪 Optimize underperforming campaigns with targeted strategies  
 - ✍️ Align content to boost engagement  
@@ -185,7 +172,7 @@ Marketing-Analytics/
 
 ---
 
-## 💼 Business Value
+## Business Value
 - 📊 Clear visibility into marketing performance  
 - 👥 Personalized marketing strategies via customer insights  
 - 💰 Optimize budget allocation for higher ROI  
@@ -194,7 +181,7 @@ Marketing-Analytics/
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 - 🧭 End-to-end marketing analytics pipeline implemented  
 - 🔍 SQL, Python & Power BI integrated for insights  
 - 🚀 Dashboard empowers quick, actionable business decisions  
