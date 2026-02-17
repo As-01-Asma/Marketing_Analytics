@@ -5,10 +5,10 @@
 ---
 
 ## 📑 Table of Contents
-- [1️⃣ Overview](#1-overview)  
-- [2️⃣ Conversion Details](#2-conversion-details)  
-- [3️⃣ Social Media Details](#3-social-media-details)  
-- [4️⃣ Customer Review Details](#4-customer-review-details)  
+- [1️⃣ Overview](#1-overview)
+- [2️⃣ Conversion Details](#2-conversion-details)
+- [3️⃣ Social Media Details](#3-social-media-details)
+- [4️⃣ Customer Review Details](#4-customer-review-details)
 - [🛠️ Tools & Technologies](#tools--technologies)
 - [📈 Dashboard Concept](#dashboard-concept)
 - [🔄 Project Workflow](#project-workflow)
@@ -26,72 +26,72 @@
 ## 1 Overview
 ![Overview Dashboard](dashboard1.png)
 
-- **🎯 Purpose:** Analyze digital marketing performance for an online retail business  
-- **👥 Focus:** Customer engagement, conversion behavior, and feedback trends  
-- **📉 Goal:** Identify gaps in marketing effectiveness & optimize ROI  
-- **📊 Outcome:** Data-driven insights for better business decisions  
+📌 **Purpose:** Analyze digital marketing performance for an online retail business  
+👥 **Focus:** Customer engagement, conversion behavior, and feedback trends  
+🎯 **Goal:** Identify gaps in marketing effectiveness & optimize ROI  
+📊 **Outcome:** Data-driven insights for better business decisions  
 
 **Dashboard Insights:**  
-- 📊 Conversion Rate: Currently standing at 9.6%, providing a baseline for marketing effectiveness.  
-- 👀 Engagement Volume: Tracking over 9 million views and 1.7 million clicks across all product categories.  
-- ⭐ Customer Sentiment: An average rating of 3.69, indicating generally positive feedback with room for service optimization.
+- 📊 **Conversion Rate:** Currently standing at 9.6%, providing a baseline for marketing effectiveness.  
+- 📈 **Engagement Volume:** Tracking over 9 million views and 1.7 million clicks across all product categories.  
+- ⭐ **Customer Sentiment:** An average rating of 3.69, indicating generally positive feedback with room for service optimization.
 
 ---
 
 ## 2 Conversion Details
 ![Conversion Dashboard](dashboard2.png)
 
-- **🎯 Purpose:** Track and optimize the conversion of potential customers into buyers  
-- **👥 Focus:** Identify top-performing products, categories, and seasonal trends  
-- **📉 Goal:** Reduce drop-offs in the conversion funnel & increase overall purchases  
-- **📊 Outcome:** Insights to improve campaigns and maximize revenue  
+📌 **Purpose:** Understand product and campaign performance across the funnel  
+👥 **Focus:** Conversion rates by product, category, and seasonal trends  
+🎯 **Goal:** Identify drop-offs and optimize the purchase journey  
+📊 **Outcome:** Recommendations for improving overall conversions  
 
 **Dashboard Insights:**  
-- 🔁 Conversion Funnel: 672 views → 355 clicks → 57 final purchases (8.5% conversion rate).  
-- 📅 Seasonal Trends: Peaks in January (17.3%) and December (12.2%), highlighting holiday marketing impact.  
-- 🛒 Top Products: Ski Boots and Kayaks lead, Climbing Rope has lowest conversion efficiency.
+- 🔁 **Conversion Funnel:** Analysis of the customer journey shows 672 views resulting in 355 clicks and 57 final purchases (8.5% conversion rate for the selected period).  
+- 📅 **Seasonal Trends:** Conversion rates peak significantly in January (17.3%) and December (12.2%).  
+- 🛒 **Top Products:** Ski Boots and Kayaks lead, while Climbing Rope shows the lowest conversion efficiency.
 
 ---
 
 ## 3 Social Media Details
 ![Social Media Dashboard](dashboard3.png)
 
-- **🎯 Purpose:** Measure campaign effectiveness across social channels  
-- **👥 Focus:** Track engagement metrics (clicks, likes, shares) and monthly trends  
-- **📉 Goal:** Identify high-performing content and campaign timing  
-- **📊 Outcome:** Insights to guide content strategy and maximize reach  
+📌 **Purpose:** Track campaign performance and engagement trends  
+👥 **Focus:** Channel-level engagement and content-type effectiveness  
+🎯 **Goal:** Optimize marketing strategy for maximum reach  
+📊 **Outcome:** Identify high-performing content and peak engagement periods  
 
 **Dashboard Insights:**  
-- 📊 Channel Performance: Views (2.9M), Clicks (458K), Likes (73K) measure brand awareness.  
-- 🎥 Content Strategy: Videos consistently drive higher engagement peaks in mid-year.  
-- 📅 Monthly Reach: Peaks in April and July indicate strong campaigns during these windows.
+- 📣 **Channel Performance:** Views (2.9M), Clicks (458K), Likes (73K) to measure brand awareness.  
+- 🎥 **Content Strategy:** Videos consistently drive higher engagement than blogs or social media posts.  
+- 📆 **Monthly Reach:** Engagement peaks in April and July, highlighting high-performing campaigns.
 
 ---
 
 ## 4 Customer Review Details
 ![Customer Review Dashboard](dashboard4.png)
 
-- **🎯 Purpose:** Understand customer feedback and product perception  
-- **👥 Focus:** Analyze sentiment scores, ratings, and recurring complaints  
-- **📉 Goal:** Improve products, services, and customer satisfaction  
-- **📊 Outcome:** Data-driven recommendations for enhancing brand reputation  
+📌 **Purpose:** Understand customer satisfaction and feedback trends  
+👥 **Focus:** Sentiment, ratings, and recurring complaints  
+🎯 **Goal:** Improve products and services based on customer insights  
+📊 **Outcome:** Implement actionable changes to enhance customer experience  
 
 **Dashboard Insights:**  
-- 🧠 Sentiment Analysis: Categorized reviews into Positive, Mixed, and Negative using Python NLTK (VADER).  
-- ⭐ Rating Distribution: Majority 4-5 star, some “Mixed Negative” in specific categories.  
-- 📈 Feedback Trends: Sentiment most positive in December due to successful year-end initiatives.
+- 🧠 **Sentiment Analysis:** Categorized reviews into Positive, Mixed, and Negative sentiments using Python's NLTK (VADER).  
+- 🌟 **Rating Distribution:** Majority 4-5 star reviews, but notable "Mixed Negative" cluster in some products.  
+- 📝 **Feedback Trends:** Sentiment most positive in December, likely due to successful year-end service initiatives.
 
 ---
 
 ## Tools & Technologies
-- 🐍 Python – Data extraction, cleaning, enrichment & export to Power BI  
-- 📊 Pandas – Data manipulation & transformation  
-- 🧠 NLTK (VADER) – Sentiment analysis  
-- 🔌 pyodbc – SQL Server connection  
-- 🗄️ SQL Server – Data storage  
-- 💻 VS Code – Python IDE  
-- 📁 CSV Files – Optional processed export  
-- 📊 Power BI – Dashboards & visualizations  
+- 🐍 **Python** – Data extraction, cleaning, enrichment & export to Power BI  
+- 📊 **Pandas** – Data manipulation & transformation  
+- 🧠 **NLTK (VADER)** – Sentiment analysis  
+- 🔌 **pyodbc** – SQL Server connection  
+- 🗄️ **SQL Server** – Data storage  
+- 💻 **VS Code** – Python IDE  
+- 📁 **CSV Files** – Optional processed export  
+- 📊 **Power BI** – Dashboards & visualizations  
 
 ---
 
