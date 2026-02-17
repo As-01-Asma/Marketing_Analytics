@@ -13,21 +13,23 @@
   ![Social Media Dashboard](images/dashboard3.png)  
 - [4️⃣ Customer Review Details](#4-customer-review-details)  
   ![Customer Review Dashboard](images/dashboard4.png)  
-- [🛠️ Tools & Technologies](#tools--technologies)
-- [📈 Dashboard Concept](#dashboard-concept)
-- [🔄 Project Workflow](#project-workflow)
-- [🧱 Project Structure](#project-structure)
-- [▶️ How to Run](#how-to-run)
-- [🖼️ Data Modeling Diagram](#data-modeling-diagram)
-- [📄 PPT / Reports](#ppt--reports)
-- [🔍 Key Insights](#key-insights)
-- [💡 Business Recommendations](#business-recommendations)
-- [💼 Business Value](#business-value)
-- [✅ Conclusion](#conclusion)
+- [Tools & Technologies](#tools--technologies)
+- [Dashboard Concept](#dashboard-concept)
+- [Project Workflow](#project-workflow)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Data Modeling Diagram](#data-modeling-diagram)
+- [PPT / Reports](#ppt--reports)
+- [Key Insights](#key-insights)
+- [Business Recommendations](#business-recommendations)
+- [Business Value](#business-value)
+- [Conclusion](#conclusion)
 
 ---
 
 ## 1 Overview
+![Overview Dashboard](images/dashboard1.png)
+
 - 🎯 Purpose: Analyze digital marketing performance for an online retail business  
 - 👥 Focus: Customer engagement, conversion behavior, and feedback trends  
 - 📉 Goal: Identify gaps in marketing effectiveness & optimize ROI  
@@ -36,6 +38,8 @@
 ---
 
 ## 2 Conversion Details
+![Conversion Dashboard](images/dashboard2.png)
+
 - 🔁 Conversion Rate by Month & Season  
 - 🛒 Top-performing products & categories  
 - 💰 Revenue generated from campaigns  
@@ -45,6 +49,8 @@
 ---
 
 ## 3 Social Media Details
+![Social Media Dashboard](images/dashboard3.png)
+
 - 📣 Campaign performance across channels (Facebook, Instagram, Email)  
 - 🖱️ Engagement metrics: clicks, likes, shares, interactions  
 - 📅 Monthly trends & peak engagement periods  
@@ -53,6 +59,8 @@
 ---
 
 ## 4 Customer Review Details
+![Customer Review Dashboard](images/dashboard4.png)
+
 - ⭐ Average ratings & sentiment scores  
 - 🗣️ Positive vs negative review trends  
 - ✍️ Recurring feedback / complaints  
