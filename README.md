@@ -146,8 +146,7 @@ Marketing-Analytics/
 *Categorizes reviews based on sentiment scores and rating.*  
 *Categories include Positive, Mixed Positive, Neutral, Mixed Negative, and Negative.*  
 *Scores are also grouped into buckets for business insights.*  
-![Sentiment Categorization](sentiment_categorization.png)
-
+![Sentiment Categorization](https://github.com/As-01-Asma/Marketing_Analytics/blob/main/sentiment%20_categorization.png?raw=true)
 ### 3. CSV Output Preview
 *After analysis, the enriched dataset is exported to CSV.*  
 *Columns include ReviewID, CustomerID, ProductID, ReviewDate, Rating, ReviewText, SentimentScore, SentimentCategory, and SentimentBucket.*  
