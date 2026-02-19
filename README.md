@@ -15,7 +15,6 @@
 - 🐍 [Python Sentiment Analysis](#python-sentiment-analysis)
 - 🧩 [Data Modeling Diagram](#data-modeling-diagram)
 - 📊 [Power BI Dashboards](#power-bi-dashboards)
-- 📁 [PPT / Reports](#ppt--reports)
 - 🔍 [Key Insights](#key-insights)
 - 💡 [Business Recommendations](#business-recommendations)
 - 💼 [Business Value](#business-value)
@@ -216,8 +215,7 @@ Marketing-Analytics/
 
 ---
 
-## PPT / Reports
-[Download Detailed PPT Report](reports/marketing_report.pptx)
+
 
 ---
 
