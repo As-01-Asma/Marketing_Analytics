@@ -149,7 +149,7 @@ Marketing-Analytics/
 ### 3. CSV Output Preview
 *After analysis, the enriched dataset is exported to CSV.*  
 *Columns include ReviewID, CustomerID, ProductID, ReviewDate, Rating, ReviewText, SentimentScore, SentimentCategory, and SentimentBucket.*  
-![CSV Output](sentiment_csv_output.png)
+![CSV Output](https://github.com/As-01-Asma/Marketing_Analytics/blob/07f882f6d2120ae16cc00b0f0b3e33cb4b3cfe38/sentiment_csv_output%20.png)
 
 ---
 
